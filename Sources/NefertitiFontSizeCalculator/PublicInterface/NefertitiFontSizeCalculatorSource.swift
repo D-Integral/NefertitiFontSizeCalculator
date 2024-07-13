@@ -22,9 +22,9 @@ public struct NefertitiFontSizeCalculatorSource: NefertitiFontSizeCalculatorSour
         return fontSizeRange.diff
     }
     
-    init(text: String,
-         fontSizeRange: NefertitiFontSizeRange = NefertitiFontSizeRange(),
-         rectSize: CGSize) {
+    public init(text: String,
+                fontSizeRange: NefertitiFontSizeRange = NefertitiFontSizeRange(),
+                rectSize: CGSize) {
         self.text = text
         self.fontSizeRange = fontSizeRange
         self.rectSize = rectSize
